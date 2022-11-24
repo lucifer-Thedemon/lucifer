@@ -1,0 +1,122 @@
+public class cwh_31_Java_Methods {
+//    Using Static (int)
+   /* static int logic(int x , int y ){
+        int z ;
+        if(x>y){
+            z=x+y;
+        }else {
+            z=x*y;
+        }
+        return z;
+    }
+    public static void main(String[] args) {
+        int a = 5;
+        int b = 7;
+        int  c ;
+        c = logic(a,b);
+        System.out.println(c);
+
+        int a1 = 9;
+        int b1= 7;
+        int c1;
+       c1 = logic(a1,b1);
+        System.out.println(c1);
+    }*/
+
+
+    static float percentage(float x, float y){
+        float z = x + y ;
+        return z ;
+    }
+public static void main(String[]args){
+    float a = 60.31f;
+    float b = 83.40f;
+    float c =percentage(a,b);
+    System.out.println(c);
+
+    float a1 = 89.98f;
+    float b1 = 98.45f;
+    float c1 =percentage(a1,b1);
+    System.out.println(c1);
+}
+
+
+
+
+
+
+
+//        Using Static (String)
+   /* static String name(String x,String y){
+        String z="My name is "+ x +" "+ y;
+        return z;
+    }
+    public static void main(String[]args){
+        String a = "Niranjan";
+        String b ="Mahadik";
+        String c = name(a,b);
+        System.out.println(c);
+
+        String a1 = "Akash";
+        String b1 = "Shere";
+        String c1 = name(a1,b1);
+        System.out.println(c1);
+
+        String a2 = "Aniket";
+        String b2 = "Sawant";
+        String c2 = name(a2,b2);
+        System.out.println(c2);
+    }*/
+
+
+//    Using  without Static(int)
+   /* int logic(int x , int y ){
+        int z ;
+        if(x>y){
+            z=x+y;
+        }else {
+            z=x*y;
+        }
+        return z;
+    }
+    public static void main(String[] args) {
+        int a = 5;
+        int b = 7;
+        int  c ;
+        cwh_31_Java_Methods obj = new cwh_31_Java_Methods();
+        c = obj.logic(a,b);
+        System.out.println(c);
+
+        int a1 = 9;
+        int b1= 7;
+        int c1;
+        c1 = obj.logic(a1,b1);
+        System.out.println(c1);
+    }*/
+
+//    Using Without Static (String)
+   /*String name(String x,String y){
+        String z="My name is "+ x +" "+ y;
+        return z;
+    }
+    public static void main(String[]args) {
+        String a = "Niranjan";
+        String b = "Mahadik";
+        cwh_31_Java_Methods obj = new cwh_31_Java_Methods();
+        String c = obj.name(a, b);
+        System.out.println(c);
+
+        String a1 = "Akash";
+        String b1 = "Shere";
+        String c1 = obj.name(a1, b1);
+        System.out.println(c1);
+
+        String a2 = "Aniket";
+        String b2 = "Sawant";
+        String c2 = obj.name(a2, b2);
+        System.out.println(c2);
+    }*/
+
+
+
+}
