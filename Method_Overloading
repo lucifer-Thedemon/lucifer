@@ -1,0 +1,55 @@
+public class cwh_32_Method_Overloading {
+//    # Changing the integer
+    /*static int Add(int a, int b){
+       int z = a+b;
+       return z;
+    }
+    public static void main(String[]args){
+int[]marks={86,87,78,70,80,};
+int z = Add(marks[0],marks[1]);
+        System.out.println(z);
+    }*/
+
+
+//   # Changing the Array
+/*static int change(float[]decimal){
+    decimal[0]=83.40f;
+    return 0;
+    }
+    public static void main(String[] args) {
+        float[]percentage={89.76f,45.98f,90.00f};
+        change(percentage);
+        System.out.println(percentage[0]);
+    }*/
+
+
+//  # Method Overloading
+
+
+/*static void foo(){
+    System.out.println("Good Morning");
+}
+static void foo(String a){
+    System.out.println("Good Morning "+ a);
+}
+static void foo(String a,String b){
+    System.out.println("Good Morning "+a + b);
+}
+    public static void main(String[] args) {
+        foo();
+        foo("Akash");
+        foo("Akash ","and Aniket");
+    }*/
+
+
+
+
+
+
+
+
+
+
+}
+
+
